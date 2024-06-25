@@ -1,5 +1,5 @@
 def main():
-    frank_path = "books/frankenstein.txt"
+    frank_path = "/home/tzscott/workspace/github.com/t-z-scott/bookbot/books/frankenstein.txt"
     text = get_book_text(frank_path)
     num_words = word_count(text)
     print(f"{num_words} words found in the book")
